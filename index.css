@@ -144,15 +144,26 @@ body {
     height: fit-content;
     margin: auto;
     margin-top: 100px;
-    display: block;
+    display: flex;
     align-self: center;
     padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.div_40 {
+    display: block !important;
+    width: 40%;
+}
+
+.div_60 {
+    display: block !important;
+    width: 60%;
+    margin: 20px;
+}
+
 .headings {
     font-size: large;
-    color: brown;
+    color: #a52a2a;
     margin-top: 15px;
 }
 
