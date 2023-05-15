@@ -167,6 +167,14 @@ body {
     margin-top: 15px;
 }
 
+.headingsMain {
+    font-size: x-large;
+    color: #a52a2a;
+    margin-top: 15px;
+    font-weight: bolder;
+
+}
+
 .inputStyle {
     font-size: medium;
     background-color: bisque;
