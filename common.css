@@ -1,0 +1,11 @@
+     .button {
+         border: solid 1px beige;
+         border-radius: 5px;
+         margin-top: 10px;
+         padding: 5px 10px 5px 10px;
+         background-color: brown;
+         color: white;
+         align-self: center;
+         align-items: center;
+
+     }
