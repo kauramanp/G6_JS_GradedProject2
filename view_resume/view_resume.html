@@ -6,12 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="view_resume.css">
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="../index/index.css">
 </head>
 
 <body>
-    <div></div>
+    <div class="header_class_div">
+        <input class="inputStyle" id="search" placeholder="Enter name or keyword to search">
+        <button id="searchButton" class="button">Search</button>
+        <button id="PreviousButton" class="button">Previous</button>
+        <button id="NextButton" class="button">Next</button>
+    </div>
+
+    <div class="innerCard">
+        <div class="div_40">
+            <img src="../images/login.png" height="80%" width="150px" />
+        </div>
+        <div class="div_60">
+            <div class="headingsMain">Sorry! No Resume Found</div>
+        </div>
+    </div>
+
+    <div class="resumeCard">
+        <div class="div_40_column" style="background-color: bisque;">
+            <h1>Personal Information</h1>
+            <h2 id="email">Email</h2>
+            <h2 id="phone">phone</h2>
+            <h2 id="linkedin">LinkedIn</h2>
+            <h1>Technical Skills</h1>
+            <h2 id="email">Email</h2>
+            <h2 id="phone">phone</h2>
+            <h2 id="linkedin">LinkedIn</h2>
+            <h1>Hobbies</h1>
+            <h2 id="email">Email</h2>
+            <h2 id="phone">phone</h2>
+            <h2 id="linkedin">LinkedIn</h2>
+        </div>
+        <div class="main">main</div>
+
+    </div>
 </body>
+
+<script src="../dummy_data/resume.js" type="text/javascript"></script>
 
 </html>
