@@ -28,7 +28,7 @@ loginButton.onclick = function () {
         });
 
         if (isFound) {
-            window.location.replace(".../../view_resume/view_resume.html");
+            window.location.replace("../view_resume/view_resume.html");
 
         } else {
             alert("Sorry Credentials are incorrect or not found");
