@@ -59,7 +59,7 @@ function showButtons() {
         previousButton.style.display = "inline"
     }
 
-    if (currentPosition < resume.length) {
+    if (currentPosition < resume.length - 1) {
         nextButton.style.display = "inline"
     } else {
         nextButton.style.display = "none"
@@ -97,15 +97,7 @@ searchButton.addEventListener("click", (e) => {
             }
         }
         console.log("resume.length in search " + resume.length)
-        if (resume.length == 0) {
-
-            resumeDiv.style.display = "none"
-            noresumeDiv.style.display = "flex"
-            showButtons()
-        } else {
-            resumeDiv.style.display = "block"
-            noresumeDiv.style.display = "none"
-        }
+        showButtons()
     }
 });
 
