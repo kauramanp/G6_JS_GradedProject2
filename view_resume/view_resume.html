@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
-    <link rel="stylesheet" href="view_resume.css">
     <link rel="stylesheet" href="../common.css">
     <link rel="stylesheet" href="../index/index.css">
+    <link rel="stylesheet" href="view_resume.css">
+
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <button id="NextButton" class="button">Next</button>
     </div>
 
-    <div class="innerCard">
+    <div class="innerCard" id="noresumeDiv">
         <div class="div_40">
             <img src="../images/login.png" height="80%" width="150px" />
         </div>
@@ -28,26 +29,129 @@
         </div>
     </div>
 
-    <div class="resumeCard">
-        <div class="div_40_column" style="background-color: bisque;">
+    <div class="resumeCard" id="resumeDiv">
+        <div style="display: block;">
+            <div class="horizontal_div_intro">
+                <img src="../images/login.png" width="200" height="200">
+                <div class="vertical_div">
+                    <h1 id="name">John</h1>
+                    <div class="horizontal_div">
+                        <h1>Applied For</h1>
+                        <h2 id="appliedFor">Testing</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div_40_column">
             <h1>Personal Information</h1>
             <h2 id="email">Email</h2>
             <h2 id="phone">phone</h2>
             <h2 id="linkedin">LinkedIn</h2>
             <h1>Technical Skills</h1>
-            <h2 id="email">Email</h2>
-            <h2 id="phone">phone</h2>
-            <h2 id="linkedin">LinkedIn</h2>
+            <h2 id="skills">Skills</h2>
             <h1>Hobbies</h1>
-            <h2 id="email">Email</h2>
-            <h2 id="phone">phone</h2>
-            <h2 id="linkedin">LinkedIn</h2>
+            <h2 id="hobbies">Hobbies</h2>
         </div>
-        <div class="main">main</div>
+        <div class="main">
+            <h1>Work Experience in previous companies</h1>
+            <div class="previous_company">
+                <div class="horizontal_div">
+                    <h1>Company Information</h1>
+                    <h2 id="companyName">Testing</h2>
+                </div>
+                <div class="horizontal_div">
+                    <h1>Position</h1>
+                    <h2 id="companyPosition">Testing</h2>
+                </div>
+                <div class="horizontal_div">
+                    <h1>Start Date</h1>
+                    <h2 id="startDate">Start Date</h2>
+                </div>
+                <div class="horizontal_div">
+                    <h1>End Date</h1>
+                    <h2 id="endDate">End Date</h2>
+                </div>
+                <div class="vertical_div">
+                    <h1>Summary</h1>
+                    <h2 id="summary">Summary</h2>
+                </div>
+            </div>
+            <h1>Projects</h1>
+            <div class="previous_company">
+
+                <div class="vertical_div">
+                    <h1 id="projectHeading">Heading</h1>
+                    <h2 id="projectDescription">Descrtiption</h2>
+                </div>
+            </div>
+            <h1>Education</h1>
+            <ul>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>UG</h1>
+                        <h2 id="ug">Testing</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>Senior Seconday</h1>
+                        <h2 id="senSec">Testing</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>High School</h1>
+                        <h2 id="highSchool">Testing</h2>
+                    </div>
+                </li>
+
+            </ul>
+            <h1>Internship</h1>
+            <ul>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>Company Name</h1>
+                        <h2 id="internCompany">Testing</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>Position</h1>
+                        <h2 id="internPosition">Testing</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>Start Date</h1>
+                        <h2 id="internStartDate">Testing</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="horizontal_div">
+                        <h1>End Date</h1>
+                        <h2 id="internEndDate">Testing</h2>
+                    </div>
+                </li>
+                <li>
+                    <div class="vertical_div">
+                        <h1>Summary</h1>
+                        <h2 id="internSummary">Testing</h2>
+                    </div>
+                </li>
+
+            </ul>
+            <h1>Achievements</h1>
+            <ul>
+                <li>
+                    <h2 id="acheivements">Testing</h2>
+
+                </li>
+        </div>
 
     </div>
 </body>
 
 <script src="../dummy_data/resume.js" type="text/javascript"></script>
+<script src="../view_resume/view_resume.js" type="text/javascript"></script>
 
 </html>

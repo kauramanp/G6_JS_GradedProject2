@@ -24,6 +24,7 @@ section {
 
 body {
     line-height: 1;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ol,
@@ -59,40 +60,21 @@ table {
 }
 
 .resumeCard {
-    /* height: 100%;
-  
-    padding: 20px;
-    width: auto;
-   */
-    margin: 0 auto;
-    /* height: 1000px; */
-    /* width: 90%; */
-    /* background: green; */
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
-    height: 1400px;
+    padding-right: 20px;
+    height: auto;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .div_40_column {
-    /* float: left;
-    position: fixed;
-    display: flex !important;
-    flex-direction: column;
-    width: 40%;
-    margin: 20px;
     background-color: bisque;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px; */
-    background-color: #ddd;
     float: left;
     width: 30%;
     height: auto;
-    
 }
 
 .div_40_column h1 {
@@ -121,8 +103,100 @@ table {
 
 .main {
     float: right;
-    background-color: yellow;
-    /* width: 300px; */
-    width:  70%;
-    height: 1400px;
+    width: 65%;
+    height: auto;
+}
+
+.main h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #a52a2a;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.horizontal_div {
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+}
+
+.horizontal_div_intro {
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.horizontal_div h1 {
+    font-size: large;
+    color: #a52a2a;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.horizontal_div h2 {
+    font-size: medium;
+    color: rgb(73, 72, 72);
+    vertical-align: bottom;
+}
+
+.vertical_div {
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+}
+
+.vertical_div h1 {
+    font-size: large;
+    color: #a52a2a;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.vertical_div h2 {
+    font-size: medium;
+    color: rgb(73, 72, 72);
+    vertical-align: bottom;
+    padding-left: 10px;
+}
+
+.previous_company {
+    margin: 10px;
+}
+
+.main ul {
+    list-style-type: disc;
+    size: 200px;
+}
+
+.main ul li {
+    color: #a52a2a;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.main ul li::marker {
+    font-size: 30px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.main ul li h2 {
+    font-size: medium;
+    color: rgb(73, 72, 72);
+    vertical-align: bottom;
 }
